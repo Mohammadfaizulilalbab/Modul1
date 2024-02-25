@@ -37,11 +37,8 @@ public class Main {
             // Menghitung umur berdasarkan tanggal lahir
             Period usia = Period.between(tglLahir, LocalDate.now());
 
-            // Menampilkan umur
-            System.out.println("Umur Anda adalah: " + usia.getYears() + " tahun, " +
-                    usia.getMonths() + " bulan, dan " +
-                    usia.getDays() + " hari.");
-            // Mengubah input berupa karakter dari pada inputan jenis kelamin dari user menjadi variabel yang bernilai "Laki-laki" atau "Perempuan"
+
+            // Mengubah input berupa karakter pada inputan jenis kelamin dari user menjadi variabel yang bernilai "Laki-laki" atau "Perempuan"
             switch (jenisKelamin) {
                 case "L":
                 case "l":
